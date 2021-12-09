@@ -1,5 +1,5 @@
-var ListadePeça = ["Filtro de Ar","Motor","Amortecedor"]
-if (ListadePeça.length < 10){
+var listadePeça = ["Filtro de Ar","Motor","Amortecedor"]
+if (listadePeça.length < 10){
     //É possivel cadastrar mais peças
     console.log("É possivel colocar mais peças na lista")
     } else {
@@ -7,8 +7,8 @@ if (ListadePeça.length < 10){
         console.log("Não é possivel colocar mais peças na lista")
     }
 
-let Peso = 50;55;
-if(Peso.length < 100){
+let peso = 50;55;
+if(peso.length < 100){
     //Não possui o peso necessario
     console.log("A peça deve ter no minimo 100g")
     } else {
@@ -16,11 +16,11 @@ if(Peso.length < 100){
         console.log("A peça possui o minimo de peso")
     }
 
-let NomedePeça = "Motor"
-if (NomedePeça.length > 3){
+let nomedePeça = "Motor"
+if (nomedePeça.length > 3){
     //Quantidade necessaria de letras para o cadastro
     console.log("Nome de peça está adequado para o cadastro")
-    } else if(NomedePeça.length ==0){
+    } else if(nomedePeça.length ==0){
     //O nome de peça não pode estar vazio para o cadastro
         console.log("Não é possivel cadastrar sem um nome de peça")
     } else {
@@ -34,7 +34,7 @@ if (NomedePeça.length > 3){
     // let idade = 23
     // if (idade == "23") 
 
-switch(NomedePeça.length){
+switch(nomedePeça.length){
     Case 0:
     console.log("Não é possivel cadastrar sem um nome de peça")
     break;
